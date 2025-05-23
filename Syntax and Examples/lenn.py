@@ -1,0 +1,6 @@
+nm=input("enter any number :")
+rm=len(nm)
+print("The number having",rm,"digits")
+nm=int(nm)
+dm=(nm**2)
+print(dm)
