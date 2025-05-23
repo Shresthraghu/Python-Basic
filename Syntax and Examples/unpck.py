@@ -1,0 +1,11 @@
+nm=('Anu','Renu','Monu')
+nm1,*nm2=nm
+print(nm)
+print(nm1)
+print(nm2)
+nm=('Anu','Renu','Monu','shrey','ashita','suman')
+nm1,*nm2,nm3=nm
+print(nm)
+print(nm1)
+print(nm2)
+print(nm3)
