@@ -1,0 +1,33 @@
+stu={
+    'nm':'Anu',
+    'cls':12,
+    'phy':90,
+    'che':89,
+    'mat':78
+    }
+print(stu)
+print("--------------------")
+stu1=stu.copy()
+print(stu1)
+print("--------------------")
+stu.clear()
+print(stu)
+print("--------------------")
+
+stu={
+    'nm':'Anu',
+    'cls':12,
+    'phy':90,
+    'che':89,
+    'mat':78
+    }
+print(stu)
+stu.update({'tot':250})
+
+print(stu)
+print("--------------------")
+stu['per']=90
+print(stu)
+print("--------------------")
+stu['bio']=78
+stu.insert(st)
