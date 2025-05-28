@@ -1,0 +1,13 @@
+stu={
+    'nm':['Anu','renu','pooja'],
+    'cls':12,
+    'phy':90,
+    'che':89,
+    'mat':78
+    }
+print(stu)
+print("--------------------")
+stu.pop('che')
+print(stu)
+stu.popitem()
+print(stu)
